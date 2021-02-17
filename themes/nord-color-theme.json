@@ -1269,6 +1269,39 @@
       "settings": {
         "foreground": "#8FBCBB"
       }
+    },
+    {
+      "name": "[Rust] Entity Name Type",
+      "scope": "source.rust entity.name.type",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[Rust] Attributes",
+      "scope": [
+        "entity.name.function.attribute.rust",
+        "source.rust entity.name.function.attribute.rust",
+        "source.rust meta.attribute.rust punctuation.brackets.attribute.rust",
+        "source.rust meta.attribute.rust punctuation.definition.attribute.rust",
+        "source.rust meta.attribute.rust punctuation.brackets.round.rust",
+        "source.rust meta.attribute.rust punctuation.comma.rust",
+        "source.rust meta.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#5E81AC"
+      }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "*.mutable:rust": {
+      "underline": true
+    },
+    "*.unsafe:rust": {
+      "foreground": "#D08770"
+    },
+    "lifetime:rust": {
+      "foreground": "#5E81AC"
+    }
+  }
 }
